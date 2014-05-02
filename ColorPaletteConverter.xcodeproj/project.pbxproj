@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0FA507F1913F3600057728B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FA507E1913F3600057728B /* Cocoa.framework */; };
+		F0FA50891913F3610057728B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0FA50871913F3610057728B /* InfoPlist.strings */; };
+		F0FA508B1913F3610057728B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FA508A1913F3610057728B /* main.m */; };
+		F0FA508F1913F3610057728B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F0FA508D1913F3610057728B /* Credits.rtf */; };
+		F0FA50921913F3610057728B /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FA50911913F3610057728B /* GAAppDelegate.m */; };
+		F0FA50951913F3610057728B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0FA50931913F3610057728B /* MainMenu.xib */; };
+		F0FA50971913F3610057728B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0FA50961913F3610057728B /* Images.xcassets */; };
+		F0FA509E1913F3610057728B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FA509D1913F3610057728B /* XCTest.framework */; };
+		F0FA509F1913F3610057728B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FA507E1913F3600057728B /* Cocoa.framework */; };
+		F0FA50BE1913F88E0057728B /* GAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FA50BC1913F88E0057728B /* GAWindowController.m */; };
+		F0FA50BF1913F88E0057728B /* GAWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0FA50BD1913F88E0057728B /* GAWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0FA50A01913F3610057728B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0FA50731913F3600057728B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FA507A1913F3600057728B;
+			remoteInfo = ColorPaletteConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0FA507B1913F3600057728B /* ColorPaletteConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPaletteConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FA507E1913F3600057728B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F0FA50811913F3600057728B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F0FA50821913F3600057728B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0FA50831913F3600057728B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0FA50861913F3610057728B /* ColorPaletteConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPaletteConverter-Info.plist"; sourceTree = "<group>"; };
+		F0FA50881913F3610057728B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0FA508A1913F3610057728B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0FA508C1913F3610057728B /* ColorPaletteConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPaletteConverter-Prefix.pch"; sourceTree = "<group>"; };
+		F0FA508E1913F3610057728B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F0FA50901913F3610057728B /* GAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAAppDelegate.h; sourceTree = "<group>"; };
+		F0FA50911913F3610057728B /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
+		F0FA50941913F3610057728B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F0FA50961913F3610057728B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0FA509C1913F3610057728B /* ColorPaletteConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPaletteConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FA509D1913F3610057728B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0FA50BB1913F88E0057728B /* GAWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAWindowController.h; sourceTree = "<group>"; };
+		F0FA50BC1913F88E0057728B /* GAWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAWindowController.m; sourceTree = "<group>"; };
+		F0FA50BD1913F88E0057728B /* GAWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0FA50781913F3600057728B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FA507F1913F3600057728B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FA50991913F3610057728B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FA509F1913F3610057728B /* Cocoa.framework in Frameworks */,
+				F0FA509E1913F3610057728B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0FA50721913F3600057728B = {
+			isa = PBXGroup;
+			children = (
+				F0FA50841913F3600057728B /* ColorPaletteConverter */,
+				F0FA507D1913F3600057728B /* Frameworks */,
+				F0FA507C1913F3600057728B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0FA507C1913F3600057728B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA507B1913F3600057728B /* ColorPaletteConverter.app */,
+				F0FA509C1913F3610057728B /* ColorPaletteConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0FA507D1913F3600057728B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA507E1913F3600057728B /* Cocoa.framework */,
+				F0FA509D1913F3610057728B /* XCTest.framework */,
+				F0FA50801913F3600057728B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FA50801913F3600057728B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA50811913F3600057728B /* AppKit.framework */,
+				F0FA50821913F3600057728B /* CoreData.framework */,
+				F0FA50831913F3600057728B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F0FA50841913F3600057728B /* ColorPaletteConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA50901913F3610057728B /* GAAppDelegate.h */,
+				F0FA50911913F3610057728B /* GAAppDelegate.m */,
+				F0FA50931913F3610057728B /* MainMenu.xib */,
+				F0FA50961913F3610057728B /* Images.xcassets */,
+				F0FA50851913F3600057728B /* Supporting Files */,
+				F0FA50BB1913F88E0057728B /* GAWindowController.h */,
+				F0FA50BC1913F88E0057728B /* GAWindowController.m */,
+				F0FA50BD1913F88E0057728B /* GAWindowController.xib */,
+			);
+			path = ColorPaletteConverter;
+			sourceTree = "<group>";
+		};
+		F0FA50851913F3600057728B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA50861913F3610057728B /* ColorPaletteConverter-Info.plist */,
+				F0FA50871913F3610057728B /* InfoPlist.strings */,
+				F0FA508A1913F3610057728B /* main.m */,
+				F0FA508C1913F3610057728B /* ColorPaletteConverter-Prefix.pch */,
+				F0FA508D1913F3610057728B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0FA507A1913F3600057728B /* ColorPaletteConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FA50AC1913F3610057728B /* Build configuration list for PBXNativeTarget "ColorPaletteConverter" */;
+			buildPhases = (
+				F0FA50771913F3600057728B /* Sources */,
+				F0FA50781913F3600057728B /* Frameworks */,
+				F0FA50791913F3600057728B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorPaletteConverter;
+			productName = ColorPaletteConverter;
+			productReference = F0FA507B1913F3600057728B /* ColorPaletteConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0FA509B1913F3610057728B /* ColorPaletteConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FA50AF1913F3610057728B /* Build configuration list for PBXNativeTarget "ColorPaletteConverterTests" */;
+			buildPhases = (
+				F0FA50981913F3610057728B /* Sources */,
+				F0FA50991913F3610057728B /* Frameworks */,
+				F0FA509A1913F3610057728B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0FA50A11913F3610057728B /* PBXTargetDependency */,
+			);
+			name = ColorPaletteConverterTests;
+			productName = ColorPaletteConverterTests;
+			productReference = F0FA509C1913F3610057728B /* ColorPaletteConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0FA50731913F3600057728B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Guillaume Algis";
+				TargetAttributes = {
+					F0FA509B1913F3610057728B = {
+						TestTargetID = F0FA507A1913F3600057728B;
+					};
+				};
+			};
+			buildConfigurationList = F0FA50761913F3600057728B /* Build configuration list for PBXProject "ColorPaletteConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0FA50721913F3600057728B;
+			productRefGroup = F0FA507C1913F3600057728B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0FA507A1913F3600057728B /* ColorPaletteConverter */,
+				F0FA509B1913F3610057728B /* ColorPaletteConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0FA50791913F3600057728B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FA50891913F3610057728B /* InfoPlist.strings in Resources */,
+				F0FA50BF1913F88E0057728B /* GAWindowController.xib in Resources */,
+				F0FA50971913F3610057728B /* Images.xcassets in Resources */,
+				F0FA508F1913F3610057728B /* Credits.rtf in Resources */,
+				F0FA50951913F3610057728B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FA509A1913F3610057728B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0FA50771913F3600057728B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FA50BE1913F88E0057728B /* GAWindowController.m in Sources */,
+				F0FA50921913F3610057728B /* GAAppDelegate.m in Sources */,
+				F0FA508B1913F3610057728B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FA50981913F3610057728B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0FA50A11913F3610057728B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0FA507A1913F3600057728B /* ColorPaletteConverter */;
+			targetProxy = F0FA50A01913F3610057728B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0FA50871913F3610057728B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0FA50881913F3610057728B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0FA508D1913F3610057728B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0FA508E1913F3610057728B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F0FA50931913F3610057728B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0FA50941913F3610057728B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0FA50AA1913F3610057728B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F0FA50AB1913F3610057728B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F0FA50AD1913F3610057728B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPaletteConverter/ColorPaletteConverter-Prefix.pch";
+				INFOPLIST_FILE = "ColorPaletteConverter/ColorPaletteConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0FA50AE1913F3610057728B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPaletteConverter/ColorPaletteConverter-Prefix.pch";
+				INFOPLIST_FILE = "ColorPaletteConverter/ColorPaletteConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0FA50B01913F3610057728B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorPaletteConverter.app/Contents/MacOS/ColorPaletteConverter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPaletteConverter/ColorPaletteConverter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ColorPaletteConverterTests/ColorPaletteConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0FA50B11913F3610057728B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorPaletteConverter.app/Contents/MacOS/ColorPaletteConverter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPaletteConverter/ColorPaletteConverter-Prefix.pch";
+				INFOPLIST_FILE = "ColorPaletteConverterTests/ColorPaletteConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0FA50761913F3600057728B /* Build configuration list for PBXProject "ColorPaletteConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FA50AA1913F3610057728B /* Debug */,
+				F0FA50AB1913F3610057728B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FA50AC1913F3610057728B /* Build configuration list for PBXNativeTarget "ColorPaletteConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FA50AD1913F3610057728B /* Debug */,
+				F0FA50AE1913F3610057728B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0FA50AF1913F3610057728B /* Build configuration list for PBXNativeTarget "ColorPaletteConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FA50B01913F3610057728B /* Debug */,
+				F0FA50B11913F3610057728B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0FA50731913F3600057728B /* Project object */;
+}
